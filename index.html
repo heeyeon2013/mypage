@@ -22,17 +22,19 @@
         color: rgb(30, 30, 30);
         margin-left: 225px;
         padding-left: 20px;
+        position: relative;
     }
     nav {
         width: 225px;
         background:rgb(227, 234, 255);
         color:rgb(255, 146, 146);
+        z-index: 1000;
         padding: 30px;
         position: fixed;
         height: 100vh;
         display: flex;
         flex-direction: column;
-        z-index: 1000;
+        overflow-y: auto;
     }
     nav a {
         padding: 10px;
